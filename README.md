@@ -1,10 +1,18 @@
-# i3blocks-battery
+# i3blocks-blocks
 
-Displays a battery icon and percentage on your i3 blocks bar.
+Simple python scripts to be used with the i3bar.
 
 ## Requirements
 
-FontAwesome, acpi and python3.
+### battery.py 
+- Font Awesome
+- Python 3
+- ACPI
+
+### wifi.py
+- Font Awesome
+- Python 3
+- nmcli
 
 ## Example Config:
 Add this to your i3blocks.conf
@@ -12,4 +20,10 @@ Add this to your i3blocks.conf
 [battery]
 command=/path/to/script/battery.py
 interval=3
+```
+
+```
+[wifi]
+command=/path/to/script/wifi.py
+interval=5
 ```
