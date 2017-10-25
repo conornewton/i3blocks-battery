@@ -1,6 +1,6 @@
 # i3blocks-blocks
 
-Simple python scripts to be used with the i3bar.
+Simple python scripts to be used with i3blocks.
 
 ## Requirements
 
