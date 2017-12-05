@@ -15,6 +15,9 @@ Simple python scripts to be used with i3blocks.
 - nmcli
 
 ## Example Config:
+
+![i3blocks example](./i3blocks-example.png)
+
 Add this to your i3blocks.conf
 ```
 [battery]
