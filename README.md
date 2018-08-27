@@ -1,11 +1,11 @@
 # i3blocks-blocks
 
-Simple python scripts to be used with i3blocks.
+Simple python and bash scripts to be used with i3blocks.
 
 ## Requirements
 
 ### battery.py 
-- Font Awesome
+- Font Awesome 
 - Python 3
 - ACPI
 
@@ -27,6 +27,7 @@ interval=3
 
 ```
 [wifi]
-command=/path/to/script/wifi.py
+command=/path/to/script/wifi-nm.py
 interval=5
 ```
+
